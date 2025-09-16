@@ -3,8 +3,8 @@ import mysql.connector
 # Connette al server MySQL locale con le credenziali fornite
 mydb = mysql.connector.connect(
   host="localhost",
-  user="yourusername",
-  password="yourpassword"
+  user="pythonuser",
+  password="password123"
 )
 
 # Crea un cursore per eseguire comandi SQL
